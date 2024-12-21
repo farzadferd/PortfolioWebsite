@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Farzad's Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">Farzad Ferdous</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <img src="assets/avatar.png" alt="header" /> 
+      <h1>Aspiring <span>Software Engineer and Business/Data Analyst</span></h1>
+      <p>
+        I am passionate about coding and business. Here, you'll find a showcase of my projects and skills. 
+        Explore my work and what I have to offer!
+      </p>
+      <div class="header__btns">
+        <button class="btn">Get in Touch</button>
+        <a href="assets/Farzad_s_Resume.pdf" download>Download Resume</a>
+      </div>
+    </header>
+
+    <section class="section__container skill__container">
+      <h2>EXPERIENCE WITH</h2>
+      <ul class="skill__flex">
+        <li>
+          <span><i class="ri-javascript-fill"></i></span>
+        </li>
+        <li>
+          <span><i class="ri-nextjs-fill"></i></span>
+        </li>
+        <li>
+          <span><i class="ri-html5-fill"></i></span>
+        </li>
+        <li>
+          <span><i class="ri-nodejs-line"></i></span>
+        </li>
+        <li>
+          <span><i class="ri-reactjs-line"></i></span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <h2>PROJECTS</h2>
+      <div class="project__grid">
+        <div class="project__card">
+          <img src="assets/codestrike_logo.png" alt="project" />
+          <div class="project__card__details">
+            <div>
+              <p>Competitive LeetCode Application</p>
+              <h4>CodeStrike</h4>
+            </div>
+            <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+          </div>
+        </div>
+        <div class="project__card">
+          <img src="assets/financetracker.png" alt="project"/>
+          <div class="project__card__details">
+            <div>
+              <p>Track Daily College Costs/Expenses</p>
+              <h4>Finance Tracker</h4>
+            </div>
+            <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+          </div>
+        </div>
+        <div class="project__card">
+            <img src="assets/stock.png" alt="project" />
+            <div class="project__card__details">
+              <div>
+                <p>Guide your Day-Trades/Investments</p>
+                <h4>Python Trading Bot</h4>
+              </div>
+              <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+            </div>
+          </div>
+          <div class="project__card">
+            <img src="assets/AirQuality.png" alt="project" />
+            <div class="project__card__details">
+              <div>
+                <p>Data Project with NYC Air Quality Data-Set</p>
+                <h4>Air Quality in New York</h4>
+              </div>
+              <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container" id="contact">
+        <h2>Contact</h2>
+        <p>
+          I'd love to hear from you! Whether you have a project in mind, a
+          question about my work, or just want to connect, feel free to reach
+          out. You can contact me via my email or phone number (found on my resume). 
+          I am always excited to collaborate with like-minded individuals and
+          explore new opportunities.
+        </p>
+        <div class="mail__to">
+          <a href="#">
+            <span><i class="ri-mail-line"></i></span>
+            fferdous@umass.edu
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
